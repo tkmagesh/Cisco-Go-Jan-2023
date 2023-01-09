@@ -14,5 +14,4 @@ LOOP:
 		}
 		fmt.Println("Prime No :", no)
 	}
-
 }
