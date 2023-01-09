@@ -129,3 +129,7 @@ Functions
     - Can have more than one return results
     - Supports variadic functions
     - Anonymous functions
+    - Higher Order Functions
+        - functions can be assigned as values to variables
+        - functions can be passed as arguments
+        - functions can be returned as results
