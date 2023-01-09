@@ -119,3 +119,8 @@ Differences between function scope & package scope
 
 Constants
     Can have unused constants (both in function & package scope)
+
+Constructs
+    if else
+    switch case
+    for
