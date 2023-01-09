@@ -124,3 +124,7 @@ Constructs
     if else
     switch case
     for
+
+Functions
+    - Can have more than one return results
+    - Supports variadic functions
