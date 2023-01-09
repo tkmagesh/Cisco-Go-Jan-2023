@@ -19,3 +19,39 @@ Software Requirements:
     * Visual Studio Code (https://code.visualstudio.com/download)
     * Go extends for Visual Studio Code (https://marketplace.visualstudio.com/items?itemName=golang.Go)
     * GIT client
+
+Agenda:
+    Day:01
+        Intro, Data Types, Constructs, functions, error handling, deferred functions
+    Day:02
+        Collections, structs, methods, interfaces, type assertion, modules & packages
+    Day:03
+        Concurrency, HTTP Services (Overview)
+
+Why Go?
+    1. Simplicity
+        ONLY 25 keywords
+        - No access modifiers (private, public, protected etc)
+        - No classes (only Struct)
+        - No inheritence (only composition)
+        - No reference types (everything is a value in Go)
+        - No exceptions (only errors)
+        - No "try catch finally" construct
+        - No pointer arithmetic
+        - No implicit type conversion
+
+    2. Lightweight
+        - Close to hardware
+        - No VMs, No JIT compilation
+        - Tooling support for cross compilation
+        - Performance is equivalent to C++
+        
+    3. Concurrency
+        - light weight concurrency model
+        - Concurrency features are built in the language
+            ex: go keyword, channel data type, range keyword, select case construct
+        - Standard Library
+            sync package
+            sync/atomic package
+
+Paradox of Choice (Barry Schwatz)
