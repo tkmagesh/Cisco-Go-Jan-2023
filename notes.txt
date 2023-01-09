@@ -116,3 +116,6 @@ Differences between function scope & package scope
     Package Scope:
         Cannot use ":="
         Can have unused variables
+
+Constants
+    Can have unused constants (both in function & package scope)
