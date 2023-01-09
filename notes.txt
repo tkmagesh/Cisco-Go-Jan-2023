@@ -140,6 +140,7 @@ Errors
     
     Convention:
         error objects implements "error" interface
+        error should be the last value in the list of return results
 
     Creation:
         errors.New()
