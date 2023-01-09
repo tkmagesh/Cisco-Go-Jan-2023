@@ -55,3 +55,9 @@ Why Go?
             sync/atomic package
 
 Paradox of Choice (Barry Schwatz)
+
+Run Go program:
+    go run <filename.go>
+
+Compile Go program:
+    go build <filename.go>
