@@ -128,3 +128,4 @@ Constructs
 Functions
     - Can have more than one return results
     - Supports variadic functions
+    - Anonymous functions
