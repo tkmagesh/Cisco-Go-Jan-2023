@@ -147,4 +147,11 @@ Errors
         fmt.Errorf()
 
 Panic & Recovery
-    
+
+Collection
+    Array
+        Fixed size typed collection
+    Slice
+        Varying size typed collection
+    Map
+        typed key/value collection
