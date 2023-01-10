@@ -197,3 +197,32 @@ Modularity
     to create a build of a module
         go build .
         go build -o <binary_name> .
+
+    to use a 3rd party Package
+        go get <package_name>
+        ex: 
+            go get github.com/fatih/color
+
+    to update the go.mod file
+        go mod tidy
+
+    to localize the dependencies
+        go mod vendor
+
+    to consider the vendor folder
+        go [run, build] -mod=vendor
+    
+    to consider the module cache (GOPATH/pkg) folder
+        go [run, build] -mod=mod
+
+    to install 3rd party go tools (GOPATH/bin folder)
+        go install <package_name>
+
+    other useful commands
+        go mod why
+        go mod graph
+
+    
+    
+    Reference :
+        https://go.dev/ref/mod
