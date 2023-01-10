@@ -155,3 +155,8 @@ Collection
         Varying size typed collection
     Map
         typed key/value collection
+
+make() function
+    - create a slice
+    - create a map
+    - create a channel
