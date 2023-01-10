@@ -160,3 +160,40 @@ make() function
     - create a slice
     - create a map
     - create a channel
+
+Modularity
+    Module (introduced in Go 1.13)
+        - any code that has to be versioned & deployed together
+        - go.mod (module file)
+            module name
+                (convention : repo path)
+            minimum go runtime version
+    
+    Package
+        - internal organization of the logic
+
+    Before Go 1.13
+        GOPATH
+            /bin
+                3rd party go binaries are installed
+            /pkg
+                source code for any 3rd party packages
+            /src
+                /github.com
+                    /tkmagesh
+                        /cisco-go-jan-2023
+                            /10-modularity
+                                app.go 
+                                    imports "github.com/tkmagesh/cisco-go-jan-2023/10-modularity/utils"
+                                /utils
+                                    utils.go
+
+    To create a module
+        go mod init <module_name>
+    
+    To run a module
+        go run .
+
+    to create a build of a module
+        go build .
+        go build -o <binary_name> .
