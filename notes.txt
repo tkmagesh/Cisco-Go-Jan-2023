@@ -145,3 +145,6 @@ Errors
     Creation:
         errors.New()
         fmt.Errorf()
+
+Panic & Recovery
+    
