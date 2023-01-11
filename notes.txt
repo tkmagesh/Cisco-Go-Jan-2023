@@ -241,3 +241,19 @@ Concurrency:
     Detecting Data Races
         go run --race <filename.go>
         go build --race <filename.go> // IMPORTANT : DONOT create a production build with a race detector
+
+    Channel:
+        Data type to enable communication between goroutines
+
+        Declaration:
+            var ch chan int
+        
+        Instantiation
+            ch = make(chan int)
+
+        Operations ( <- operator )
+            Send Operation
+                ch <- data
+
+            Receive Operation
+                data := <- ch
