@@ -232,3 +232,8 @@ Structs
 
 Interfaces
     - "Implicitly" implemented
+
+Concurrency:
+    Concurrency != Parallelism
+
+    "Ability to have more than one execution path"

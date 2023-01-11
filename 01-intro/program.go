@@ -10,6 +10,7 @@ import "fmt"
 
 /* main function */
 func main() {
+	panic("dummy panic")
 	// print("Hello World!\n")
 	fmt.Println("Hello World!")
 }
