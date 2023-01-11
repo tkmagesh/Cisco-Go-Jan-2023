@@ -229,3 +229,6 @@ Modularity
 
 Structs
     - value types
+
+Interfaces
+    - "Implicitly" implemented
