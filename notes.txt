@@ -237,3 +237,7 @@ Concurrency:
     Concurrency != Parallelism
 
     "Ability to have more than one execution path"
+
+    Detecting Data Races
+        go run --race <filename.go>
+        go build --race <filename.go> // IMPORTANT : DONOT create a production build with a race detector
